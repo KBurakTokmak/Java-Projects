@@ -1,10 +1,9 @@
 
 public class Car implements Vehicle{
-	final int wheels;
 	private String color;
 	private String modelbrand;
 	private double speed;
-	prive int wheels;
+	private int wheels;
 	public double speed() {
 		return this.speed;
 	}
@@ -31,4 +30,5 @@ public class Car implements Vehicle{
 		this.color=color;
 		this.wheels=wheels;
 	}
+	public boolean airbags;
 }
